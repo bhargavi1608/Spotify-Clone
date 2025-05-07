@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="1" class="brand"><img src="spotifyLogo.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover/Adentogani.jpg" alt="1">
+                    <span class="songName">Adentogani vunapaatuga</span>
+                    <span class="songlistplay"><span class="timestamp">03:57 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/Chuttamalle.jpg" alt="1">
+                    <span class="songName">Chuttamalle</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/Finding_her.jpg" alt="1">
+                    <span  class="songName">Finding Her</span>
+                    <span class="songlistplay"><span class="timestamp">03:27<i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/kollakalleilla.webp" alt="1">
+                    <span class="songName">kolla kalle illa</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="3" class="far  songItemPlay  fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/manasa_manasa.jpg" alt="1">
+                    <span  class="songName">Manasa Manasa</span>
+                    <span class="songlistplay"><span class="timestamp">04:13 <i id="4" class="far  songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/nee_chupule.jpg" alt="1">
+                    <span class="songName">Nee Choopule</span>
+                    <span class="songlistplay"><span class="timestamp">06:02<i id="5" class="far  songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/saiyaan.jpg" alt="1">
+                    <span class="songName">Saiyyan</span>
+                    <span class="songlistplay"><span class="timestamp">05:44 <i id="6" class="far  songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="cover/urikeurike.jpg" alt="1">
+                    <span class="songName">Urike Urike</span>
+                    <span class="songlistplay"><span class="timestamp">03:28 <i id="7" class="far  songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" min="0"  value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i  class="far fa-2x fa-play-circle" id="masterplay"></i>
+            <i  class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+       <div class="songInfo">
+        <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span> Adhento_Gaani_Vunnapaatuga
+       </div>
+    </div>
+    <script src="https://kit.fontawesome.com/101766af6b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
